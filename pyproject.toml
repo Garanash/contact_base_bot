@@ -1,0 +1,18 @@
+[project]
+name = "contact-base-bot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "a.dolgov",email = "dolgov_am@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytelegrambotapi (>=4.27.0,<5.0.0)",
+    "pydantic (==2.11.4)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
